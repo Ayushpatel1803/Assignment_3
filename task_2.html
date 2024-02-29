@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_2</title>
+</head>
+<body>
+    <h1 style="text-align: center;">NumberToothbrush For Life</h1>
+
+    <script>
+        function calculateNumberToothbrushForLife(age, amountPerMonth) {
+          const maxAge = 53; 
+          const totalMonths = (maxAge - age) * 12; 
+          const totalToothbrushes = totalMonths * amountPerMonth; 
+    
+          console.log(`You will need ${totalToothbrushes} toothbrushes to last you until the age of ${maxAge}`);
+        }
+    
+        calculateNumberToothbrushForLife(23, 1); 
+        calculateNumberToothbrushForLife(16, 2); 
+
+      </script>
+
+</body>
+</html>
